@@ -12,11 +12,46 @@
             <img src="assets/images/home-decon.png" alt="health">
         </section>
         <section id="calculator">
-            <label for="weight">Peso em kg</label>
-            <input type="text" name="weight" pl>
-            <label for="height">Altura em metros</label>
-            <input type="text" name="height">
+            <form id="form">
+                <h1>Calculadora - IMC</h1>
+                
+                <div class="input-box">
+                    <label for="weight">Peso em kg</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging"></i>
+                        <input type="number" id="weight" name="weight" autocomplete="off">
+                        <span>Kg</span>
+                    </div>
+                </div>
+                 <div class="input-box">
+                    <label for="height">Altura em metros</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler"></i>
+                        <input type="number" step="0.01" id="height" name="height" autocomplete="off">
+                        <span>M</span>
+                    </div>
+                </div>
+                <button type="submit" id="calc">Calcular</button>
+            </form>
+
+            <div id="infos" class="hidden">
+                <div id="result">
+                    <div id="imc">
+                        <span id="value">0</span>
+                        <span>Seu IMC</span>
+                    </div>
+                    <div id="description">
+                        <span>55</span>
+                    </div>
+                </div>
+                 <div id="more-infos">
+                        <a target="_blank" href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm#:~:text=O%20IMC%20(%C3%8Dndice%20de%20Massa,o%20peso%20ideal%20ou%20n%C3%A3o.">Mais informações sobre o IMC</a>
+                </div>
+            </div>
         </section>
     </main>
+
+    <script src="https://kit.fontawesome.com/6282b5e629.js" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
