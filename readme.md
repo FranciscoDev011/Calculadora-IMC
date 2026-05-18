@@ -9,7 +9,7 @@ Um projeto desenvolvido com o intuito de praticar JavaScript em projetos reais.
 ## 🌐 Acesse o site
 
 Veja o projeto online:  
-🔗 [Clique aqui para acessar o site](https://franciscodev011.github.io/CalculadoraIMC/) 
+🔗 [Clique aqui para acessar o site](https://franciscodev011.github.io/Calculadora-IMC/) 
 
 ## 🔍 Tecnologias e Linguagens utilizadas
 - HTML5  
