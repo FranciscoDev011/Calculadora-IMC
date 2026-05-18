@@ -30,6 +30,9 @@ form.addEventListener('submit', (event) => {
     } else if (imc >= 40 && imc <= 45) {
         description = 'Você está com obesidade morbida!';
         value.style.color = '#c1121f'
+    } else if (imc >= 45) {
+        description = 'Você está com obesidade morbida!';
+        value.style.color = '#c1121f'
     }
     value.textContent = imc.replace(".", ",")
     document.getElementById('description').textContent = description;
